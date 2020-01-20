@@ -35,8 +35,8 @@ body
   height: calc(33.33%);
   position: relative;
   transform:scale(1);
-  transform-style: preserve-3d;
-  transition: transform .5s;
+/*   transform-style: preserve-3d;
+ */  transition: transform .5s;
 }
 
 .card:active
@@ -62,4 +62,12 @@ body
 .front-face
 {
   transform: rotateY(180deg);
+ /*  Added z index */
+  z-index:11;
+}
+.d-none {
+  display:none;
+}
+.d-block {
+  display:block;
 }
