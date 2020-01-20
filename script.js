@@ -59,7 +59,7 @@ function resetBoard(){
   [firstCard, secondCard] = [null, null];
 }
 
-//shuffle cards
+//shuffle cards IIFE
 (function shuffle(){
   cards.forEach(card => {
     var randomPos = Math.floor(Math.random() * 18);
