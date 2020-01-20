@@ -7,7 +7,7 @@
 body
 {
   height: 100vh;
-  background: url(./fondo.jpg) no-repeat center center fixed;
+  background: url(Images/fondo.jpg) no-repeat center center fixed;
   background-size: cover;
   /*these are for different browsers*/
   -webkit-background-size: cover; 
