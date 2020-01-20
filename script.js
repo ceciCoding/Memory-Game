@@ -8,7 +8,7 @@ function flipCard() {
   if(lockboard) return;
   //handle double clicking bug
   if (this === firstCard) return;
-
+  console.log(this);
   this.classList.add('flip');
 
   if(!hasFlippedCard) {
@@ -66,3 +66,4 @@ function resetBoard(){
     card.style.order = randomPos;
   });
 })();
+
